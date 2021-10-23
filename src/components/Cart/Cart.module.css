@@ -1,3 +1,133 @@
-.singleItem {
+.cart {
+    padding: 0;
+    display: inline-flex;
+}
 
+.cartItems {
+    padding: 10px;
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 30px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    width: 500px;
+    text-align: left;
+}
+
+.itemInfo {
+    position: relative;
+}
+
+.message {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid grey;
+    border-radius: 20px;
+    width: 500px;
+    text-align: left;
+}
+
+.cartResult {
+    position: relative;
+    padding: 10px;
+    margin: 10px 0 10px 10px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 200px;
+    height: 60px;
+    text-align: left;
+}
+
+.productImage {
+    width: 200px;
+}
+
+.amount {
+    display: inline-flex;
+}
+
+.buy {
+    min-width: 760px;
+    height: 30px;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.amountNumber {
+    width: 30px;
+}
+
+.deleteItem {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #333333;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all ease-in-out 0.7s;
+    outline: none;
+}
+
+.deleteItem:hover {
+    transform: scale(1.2) rotate(360deg);
+    background-color: rgb(209, 15, 15);
+}
+
+.perchaseContainer {
+    /*position: relative;*/
+
+}
+.modalWrapper {
+    /*visibility: hidden;*/
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+}
+
+.modal {
+    width: 600px;
+    height: 400px;
+    box-sizing: border-box;
+    background-color: #fff;
+    position: absolute;
+    top: 22.5%;
+    padding: 20px;
+}
+
+.modalMessage {
+
+}
+
+.buyButtons {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+}
+
+.confirmCart {
+    padding: 8px;
+    width: 570px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: green;
+}
+
+.modalItem {
+    display: flex;
+    justify-content: center;
 }

@@ -1,0 +1,31 @@
+.singleItem {
+    width: 800px;
+    margin: auto;
+    border-left: 1px solid darkgrey;
+    border-right: 1px solid darkgrey;
+
+}
+.itemDetails {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 700px;
+    text-align: left;
+}
+
+h1 {
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+
+}
+
+.description {
+    margin-top: 15px;
+}
+
+.image {
+    width: 500px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    /*height: 100px;*/
+}
